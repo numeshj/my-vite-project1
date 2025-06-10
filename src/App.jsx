@@ -23,6 +23,7 @@ import FunctionRetunElement_2 from './assets/Components/FunctionRetunElement2.js
 
 function App() {
   const topics = {
+    //Topics for the components
     boolenExpression: "Boolen Expression",
     boolenInlineIf: "Boolen In Line If",
     childElement: "Child Element",
@@ -32,6 +33,8 @@ function App() {
     useEffect2: "Use Effect 2",
     useRef: "Use Ref",
     oneParentElement: "One Parent Element"
+    
+
   }
 
   return (
