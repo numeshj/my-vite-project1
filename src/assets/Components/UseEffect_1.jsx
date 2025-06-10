@@ -16,6 +16,15 @@ function UseEffect1({topic}) {
       <button onClick={() => setCount(count + 1)}>
         Use Effect 1 - Click me
       </button>
+      <hr/>
+      <button onClick={() => setCount(count - 1)}>
+        Decrease Count
+      </button>
+      <hr/>
+      <button onClick={() => setCount(0)}>
+        Reset Count
+      </button>
+
     </div>
   )
 }
