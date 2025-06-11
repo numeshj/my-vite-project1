@@ -2,28 +2,27 @@ import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import UseEffect1 from './assets/components/useEffect_1.jsx'
-import UseEffect2 from './assets/components/useEffect_2.jsx'
-import UseRef from './assets/components/useRef.jsx'
-import OneParentElement from './assets/components/OneParentElement.jsx'
-import VariableEliments from './assets/Components/VariableEliments.jsx'
-import MultyElements from './assets/Components/MultyElements.jsx'
-import EmptyElement from './assets/Components/EmptyEleement.jsx'
-import ElementList from './assets/Components/ElementList.jsx'
-import ArrayMapping from './assets/Components/ArrayMapping.jsx'
-import RelativeFunction from './assets/Components/RelativeFunction.jsx'
-import MyComponenet from './assets/Components/MyComponent.jsx'
-import CustomPropos from './assets/Components/CustomPropos.jsx'
-import PropsPass from './assets/Components/PropsFunction.jsx'
-import BoolenExpression from './assets/Components/BoolenExpression.jsx'
-import BoolenInlineIf from './assets/Components/BoolenInlineIf.jsx'
-import ChildElemenet from './assets/Components/ChildElement.jsx'
-import FunctionRetunElement from './assets/Components/FunctionRetunElement.jsx'
-import FunctionRetunElement_2 from './assets/Components/FunctionRetunElement2.jsx'
+import UseEffect1 from './components/useEffect_1.jsx'
+import UseEffect2 from './components/UseEffect_2.jsx'
+import UseRef from './components/useRef.jsx'
+import OneParentElement from './components/OneParentElement.jsx'
+import VariableEliments from './components/VariableEliments.jsx'
+import MultyElements from './components/MultyElements.jsx'
+import EmptyElement from './components/EmptyEleement.jsx'
+import ElementList from './components/ElementList.jsx'
+import ArrayMapping from './components/ArrayMapping.jsx'
+import RelativeFunction from './components/RelativeFunction.jsx'
+import MyComponenet from './components/MyComponent.jsx'
+import CustomPropos from './components/CustomPropos.jsx'
+import PropsPass from './components/PropsFunction.jsx'
+import BoolenExpression from './components/BoolenExpression.jsx'
+import BoolenInlineIf from './components/BoolenInlineIf.jsx'
+import ChildElemenet from './components/ChildElement.jsx'
+import FunctionRetunElement from './components/FunctionRetunElement.jsx'
+import FunctionRetunElement_2 from './components/FunctionRetunElement2.jsx'
 
 function App() {
   const topics = {
-    //Topics for the components
     boolenExpression: "Boolen Expression",
     boolenInlineIf: "Boolen In Line If",
     childElement: "Child Element",
@@ -33,8 +32,6 @@ function App() {
     useEffect2: "Use Effect 2",
     useRef: "Use Ref",
     oneParentElement: "One Parent Element"
-    
-
   }
 
   return (
